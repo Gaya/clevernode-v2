@@ -11,6 +11,8 @@
     --s2: calc(var(--spacing) * 2);
     --s4: calc(var(--spacing) * 4);
     --s8: calc(var(--spacing) * 8);
+    --s12: calc(var(--spacing) * 12);
+    --s14: calc(var(--spacing) * 14);
     --s16: calc(var(--spacing) * 16);
     --s70: calc(var(--spacing) * 70);
     --s78: calc(var(--spacing) * 78);
@@ -24,6 +26,7 @@ html, body {
     font-size: 24px;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -53,7 +56,7 @@ a {
             font-size: 1.4em;
             line-height: 1.4em;
             width: 70%;
-            margin: var(--s16) 0;
+            margin: var(--s16) 0 var(--s12);
         }
 
         .headers {
@@ -86,9 +89,30 @@ a {
 
 .links {
     margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
-    li {
-        list-style: none;
+.page-nav {
+    position: sticky;
+    border-bottom: 2px solid var(--text);
+    top: 0;
+    margin-bottom: -2px;
+    display: flex;
+    background: var(--bg);
+    background: url('../images/noise.svg');
+    z-index: 1;
+    padding: var(--s4) 0;
+    font-size: 0.7em;
+
+    span, a {
+        margin-right: var(--s2);
+    }
+
+    a {
+        text-decoration: none;
+        display: block;
     }
 }
 
@@ -139,7 +163,7 @@ em {
         h3 {
             position: sticky;
             margin-left: calc(var(--s78) * -1);
-            top: var(--s4);
+            top: calc(50.8px + var(--s8));
             height: 0;
             font-style: italic;
         }
