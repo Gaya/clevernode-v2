@@ -10,6 +10,7 @@
     --spacing: 4px;
     --s2: calc(var(--spacing) * 2);
     --s4: calc(var(--spacing) * 4);
+    --s6: calc(var(--spacing) * 6);
     --s8: calc(var(--spacing) * 8);
     --s12: calc(var(--spacing) * 12);
     --s14: calc(var(--spacing) * 14);
@@ -159,6 +160,7 @@ em {
         border-top: 2px solid var(--bg-light);
         padding-left: var(--s78);
         padding-top: var(--s8);
+        scroll-margin-top: var(--s12);
 
         h3 {
             position: sticky;
