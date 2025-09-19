@@ -4,6 +4,7 @@
     --text: #151414;
     --bg: #DDD2CF;
     --bg-light: #4A4645;
+    --primary-light: #ec5135;
     --primary: #C03319;
     --primary-dark: #8f210c;
 
@@ -27,6 +28,10 @@ html, body {
     padding: 0;
     scroll-behavior: smooth;
     scrollbar-color: var(--bg);
+}
+
+::selection {
+    background-color: rgba(192, 51, 25, 0.4);
 }
 
 .bg-grain {
@@ -82,11 +87,20 @@ a {
 
 .contact {
     font-weight: 500;
-    margin: var(--s8) 0 1em 0;
+    font-size: 0.7em;
+    line-height: 1.3em;
+    margin: 0 0 var(--s4) 0;
+    display: none;
+
+    &.mobile {
+        display: inline-block;
+    }
 }
 
 .links {
     display: flex;
+    margin-top: 0.5em;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -94,12 +108,6 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-size: 0.7em;
-    line-height: 1.3em;
-
-    .contact, .links {
-        display: none;
-    }
 }
 
 .header {
@@ -119,7 +127,7 @@ a {
 
     li {
         list-style: none;
-        padding-left: var(--s2);
+        padding-right: var(--s2);
 
         &.active {
             font-weight: 600;
@@ -138,13 +146,11 @@ a {
 }
 
 .page-nav {
-    position: sticky;
     border-bottom: 2px solid var(--text);
-    top: 0;
     margin-bottom: -2px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     z-index: 1;
     padding: var(--s4) 0;
     font-size: 0.7em;
@@ -192,15 +198,30 @@ em {
             font-style: italic;
             margin-bottom: 1em;
         }
+
+        h4 {
+            font-weight: bold;
+            font-style: italic;
+        }
     }
 
 
     p {
         margin: 0 0 var(--s8) 0;
     }
+
+    img {
+        display: block;
+        max-width: 100%;
+        margin: var(--s8) 0;
+    }
 }
 
 @media screen and (min-width: 880px) {
+    .contact.mobile {
+        display: none;
+    }
+
     .main-container {
         padding: var(--s8);
 
@@ -222,14 +243,14 @@ em {
         align-items: flex-start;
 
         .contact {
+            margin: var(--s8) 0 1em 0;
             display: block;
         }
+    }
 
-        .links {
-            margin-top: 0.5em;
-            display: flex;
-            width: 100%;
-        }
+    .language li {
+        padding-right: 0;
+        padding-left: var(--s2);
     }
 
     .header {
@@ -252,7 +273,7 @@ em {
             h3 {
                 position: sticky;
                 margin-left: calc(var(--s78) * -1);
-                top: calc(50.8px + var(--s8));
+                top: var(--s8);
                 height: 0;
                 margin-bottom: 0;
             }

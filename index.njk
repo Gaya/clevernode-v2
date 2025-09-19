@@ -31,22 +31,28 @@
             </nav>
           </section>
         </aside>
-        <section class="headers">
+        <section class="headers" id="contact">
           <h1 class="header">Gaya Kessler</h1>
           <h2 class="subheader">CleverNode</h2>
           <section class="intro">
             Freelance <strong><em>healthcare specialist</em></strong> and <strong><em>software developer</em></strong> based in Deurne, the Netherlands near Eindhoven. With more than <em>20 years of experience</em>.
           </section>
         </section>
-      </header>
-      <nav class="page-nav bg-grain">
-        <section class="quick-links">
-          <span>Jump to:</span>
-          <a href="/#top">Top</a>
-          <a href="/#what-i-do">What I do</a>
-          <a href="/#about-me">About me</a>
-        </section>
 
+        <section class="contact mobile">
+          <address>
+            <strong>Gaya Kessler - CleverNode</strong><br />
+            Deurne, Noord-Brabant<br />
+            The Netherlands<br />
+            <a href="mailto:gaya@theclevernode.com">gaya@theclevernode.com</a>
+          </address>
+          <nav class="links">
+            <a href="https://www.linkedin.com/in/gaya-kessler/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Gaya" target="_blank">GitHub</a>
+          </nav>
+        </section>
+      </header>
+      <nav class="page-nav">
         <menu class="language">
           <li class="active">
             English
@@ -67,15 +73,123 @@
             A big part of my work is not just writing code, but making sure the people I work with feel <em>confident, supported, and able to grow</em>. I love simplifying complex technical concepts and turning them into something approachable and useful.
           </p>
 
+          <img src="/assets/images/norge_2025.webp" alt="">
+
           <p>
             Alongside my development work, I am also an <strong>independent healthcare specialist</strong> <em>coaching, and supporting</em> young people with <strong>autism and ADHD</strong>. I teach subjects like computer science, game development, and fixing and making your own electronics, but more importantly, I create a safe space for <em>curiosity, creativity, and self-confidence</em>. For me, it’s not just about skills, it’s about helping these young people feel seen, capable, and empowered to explore their passions.
           </p>
         </section>
+
+        <section class="subject" id="development">
+          <h3>Software Development</h3>
+          <p>
+            If you’re looking for a <strong>reliable developer</strong> to bring your project to life or take your existing product to the next level,
+            <a href="/#contact">get in contact with me today</a> and let’s build something great together.
+          </p>
+
+          <p>
+            I provide end-to-end web development services, specialising in <strong>JavaScript / TypeScript</strong>, with a strong focus on <strong>Node.js and React</strong>. I work both on the front end and back end, bringing together scalable, robust server-side architectures and high-quality, responsive user interfaces. My work tends to emphasize <em>performance, maintainability, and clean architecture</em>.
+          </p>
+
+          <p>
+            Ask me to help you build web applications, ensure good user experience, create solid front-end frameworks, and ensure everything works together. From the server, through the API, to the client-side logic and UI interactions.
+          </p>
+
+          <p>
+            I also take on consulting roles: helping clients decide whether certain technologies suit their project, architecting systems, and giving advice on scaling.
+          </p>
+
+          <p>
+            I’m comfortable working on new builds (from scratch), as well as improving or iterating on existing codebases. Common tasks include building applications, making APIs, integrating with third-party services, and making sure things are reliable and secure.
+          </p>
+        </section>
+
+        <section class="subject">
+          <h3>Healthcare Specialist</h3>
+
+          <p>
+            I’m passionate about <strong>supporting young people with autism</strong> by <em>helping them discover their strengths and build confidence through technology</em>. Many of them have a natural curiosity for computers, coding, and electronics, and I create a safe, encouraging environment where they can explore those interests at their own pace. My goal is not only to teach technical skills but also to <em>nurture creativity, problem-solving, and self-expression</em>.
+          </p>
+
+          <p>
+            I coach and mentor them in a wide range of IT and computer-related subjects, including <strong>programming, game development, building electronics and soldering</strong>. Whether we’re working on a small coding project, creating a game from scratch, or learning how to assemble hardware, I focus on breaking concepts down into <em>manageable steps, celebrating progress, and making the learning experience fun and accessible</em>.
+          </p>
+
+          <img src="/assets/images/wall-b_003.webp" alt="">
+
+          <p>
+            What matters most to me is helping each individual achieve their personal goals. Some want to learn coding for a future career, others want to build cool projects they can share with others, and some simply enjoy the process of experimenting with technology. <strong>I adapt my approach to each person</strong>, giving them the guidance, tools, and encouragement they need to succeed.
+          </p>
+
+          <p>
+            Through this work, I aim to show young people with autism that <strong>they can thrive</strong>, building skills that open doors, spark curiosity, and give them the confidence to pursue their passions.
+          </p>
+
+          <p>
+            If your organisation is looking for someone to support students in achieving their IT related goals; feel free to <a href="/#contact">reach out to me through email</a>. I do this on an independent basis, for hire.
+          </p>
+        </section>
+
+        <section class="subject">
+          <h3>Some of my clients</h3>
+
+          <p>
+            A list of some of the companies I've worked it.
+          </p>
+
+          {% for client in clients %}
+            <h4>{{ client.title }}</h4>
+            <p>
+              {{ client.description }}<br />
+              <a href="{{ client.url }}">{{ client.link }}</a>
+            </p>
+          {% endfor %}
+        </section>
+
+        <section class="subject">
+          <h3>My experience</h3>
+
+          <p>
+            Read my <a href="https://github.com/Gaya/resume/blob/master/README.md">full resumé</a> on GitHub. I keep it up-to-date regularly. Here is a summary of what is in my CV:
+          </p>
+
+          <p>
+            My background is in <strong>computer science</strong>, which I studied at Hogeschool van Arnhem en Nijmegen.
+          </p>
+
+          <p>
+            I speak and understand Dutch (native), English (fluent), and Norwegian (B2).
+          </p>
+
+          <p>
+            I've been professionally active as a developer since 2006 and have been freelancing since 2017.
+          </p>
+        </section>
+
+        <section class="subject">
+          <h3>Side-projects</h3>
+
+          <p>
+            To keep myself sane and on top of the game I spend a lot of my free time on side-projects. Here is a few of them.
+          </p>
+
+          {% for project in projects %}
+            <h4>{{ project.title }}</h4>
+            <p>
+              {{ project.description }}<br />
+              <a href="{{ project.url }}">{{ project.link }}</a>
+            </p>
+          {% endfor %}
+        </section>
+
         <section class="subject" id="about-me">
           <h3>About me</h3>
+
           <p>
-            My love for technology began early. As a kid, I was <em>always creating, drawing, making music, and experimenting with making games</em>. In high school, I got my first taste of <em>computer science</em> and realized: this could actually become my career.
+            My love for technology began early. As a kid, I was <em>always creating, drawing, making music, and experimenting with making games</em>. In high school, I got my first taste of programming and realized: this could actually become my career.
           </p>
+
+          <img src="/assets/images/gaya-norway.webp" alt="">
 
           <p>
             From my parents’ attic, with a painfully slow internet connection, I taught myself how to build websites and backend systems. That curiosity eventually led me to pursue a bachelor’s degree in computer science while working part-time at a local web development company.
@@ -84,65 +198,41 @@
           <p>
             Since then, I’ve worked with a lot of different companies and projects, learning lots about technology and mostly about myself. Along the way, I started blogging to process and share what I was learning. While I don’t write as often these days, I still enjoy sharing ideas, sometimes on my blog, sometimes over at <a target="_blank" href="https://sauce.gaya.pizza">sauce.gaya.pizza</a>.
           </p>
-        </section>
 
-        <section class="subject">
-          <h3>Introduction</h3>
           <p>
-            Gaya Kessler is a freelance web developer based in Deurne—a small town in the south of the Netherlands, near Eindhoven—who’s been professionally coding since 2006. (That’s about half his life! )
+            I also <strong>speak at events and conferences</strong> from time to time about what I learned. Though, like writing, not as often as I used to, but still open to it.
+          </p>
+          
+          <p>
+            Apart from development and programming I like to take enough time off to enjoy life <em>away from the desk</em>.
+          </p>
+          
+          <p>
+            I am a <em>runner</em>, which helps me both physically and mentally. I created <a href="https://createmy.run/">Create My Run</a>, a small web application where runners can generate their runs based on location and distance they’d wish to run.
           </p>
 
           <p>
-            From a young age, Gaya loved creating with technology—whether building video games, drawing, composing music, or exploring programming. During high school, a glimpse into computer science convinced him: this could actually become a career he’d get paid for.
+            You can find me at <strong>loud music</strong> concerts drinking a beer and banging my head. I also play in a band called Dead Soil, and
+            <a href="https://www.youtube.com/channel/UChnJcc3EMvjjzx_yc0nUuSA">share some solo music on YouTube</a>. I also picked up
+            learning guitar and enjoying it a lot!
           </p>
 
           <p>
-            Coding began in humble circumstances: from his parents’ attic, with a painfully slow internet connection, he taught himself how to build websites and backend systems from scratch. His passion led him to study for a bachelor’s degree in Computer Science while working part-time at a local web development company—a formative experience he still values deeply.
-          </p>
-        </section>
-
-        <section class="subject">
-          <h3>Introduction</h3>
-          <p>
-            Gaya Kessler is a freelance web developer based in Deurne—a small town in the south of the Netherlands, near Eindhoven—who’s been professionally coding since 2006. (That’s about half his life! )
+            Jeg har lært meg å snakke litt norsk. Nå er jeg på <em>B2 nivå</em> og forstår de fleste nordmenn.
           </p>
 
+          <img src="/assets/images/dexter-darwin.webp" alt="">
+
           <p>
-            From a young age, Gaya loved creating with technology—whether building video games, drawing, composing music, or exploring programming. During high school, a glimpse into computer science convinced him: this could actually become a career he’d get paid for.
+            I live with three <strong>rescue cats</strong>: Dexter, Darwin, and Donnie.
           </p>
 
           <p>
-            Coding began in humble circumstances: from his parents’ attic, with a painfully slow internet connection, he taught himself how to build websites and backend systems from scratch. His passion led him to study for a bachelor’s degree in Computer Science while working part-time at a local web development company—a formative experience he still values deeply.
-          </p>
-        </section>
-
-        <section class="subject">
-          <h3>Introduction</h3>
-          <p>
-            Gaya Kessler is a freelance web developer based in Deurne—a small town in the south of the Netherlands, near Eindhoven—who’s been professionally coding since 2006. (That’s about half his life! )
+            I love to cook for me and my wife, friends, and family.
           </p>
 
           <p>
-            From a young age, Gaya loved creating with technology—whether building video games, drawing, composing music, or exploring programming. During high school, a glimpse into computer science convinced him: this could actually become a career he’d get paid for.
-          </p>
-
-          <p>
-            Coding began in humble circumstances: from his parents’ attic, with a painfully slow internet connection, he taught himself how to build websites and backend systems from scratch. His passion led him to study for a bachelor’s degree in Computer Science while working part-time at a local web development company—a formative experience he still values deeply.
-          </p>
-        </section>
-
-        <section class="subject">
-          <h3>Introduction</h3>
-          <p>
-            Gaya Kessler is a freelance web developer based in Deurne—a small town in the south of the Netherlands, near Eindhoven—who’s been professionally coding since 2006. (That’s about half his life! )
-          </p>
-
-          <p>
-            From a young age, Gaya loved creating with technology—whether building video games, drawing, composing music, or exploring programming. During high school, a glimpse into computer science convinced him: this could actually become a career he’d get paid for.
-          </p>
-
-          <p>
-            Coding began in humble circumstances: from his parents’ attic, with a painfully slow internet connection, he taught himself how to build websites and backend systems from scratch. His passion led him to study for a bachelor’s degree in Computer Science while working part-time at a local web development company—a formative experience he still values deeply.
+            I believe living a sustainable lifestyle is best for the planet, animals, the people I love, and myself.
           </p>
         </section>
       </main>

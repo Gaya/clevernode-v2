@@ -1,0 +1,78 @@
+{
+  "clients": [
+    {
+      "title": "Bureau voor Pedagogiek",
+      "description": "Health Care Specialist / Teacher and Coach IT for autistic youth",
+      "url": "https://bureauvoorpedagogiek.nl/",
+      "link": "bureauvoorpedagogiek.nl"
+    },
+    {
+      "title": "Philips",
+      "description": "Cloud hosting platform for Philips Healthcare in Node.js",
+      "url": "https://www.philips.com/global",
+      "link": "philips.com"
+    },
+    {
+      "title": "Graylog",
+      "description": "React development for the core and cloud product",
+      "url": "https://www.graylog.com",
+      "link": "graylog.com"
+    },
+    {
+      "title": "Intoto",
+      "description": "Visualising intelligent river data with React, D3, Node.js",
+      "url": "https://intoto.io/",
+      "link": "intoto.io"
+    },
+    {
+      "title": "Infowijs",
+      "description": "React education and development of school communication platforms",
+      "url": "https://infowijs.nl/",
+      "link": "infowijs.nl"
+    },
+    {
+      "title": "Netthandelsgruppen",
+      "description": "E-commerce dashboards and React powered tooling",
+      "url": "https://netthandelsgruppen.no",
+      "link": "netthandelsgruppen.no"
+    },
+    {
+      "title": "PackBack",
+      "description": "Temporary Tech Lead and Full-stack Developer",
+      "url": "https://www.packback.network/",
+      "link": "packback.network"
+    }
+  ],
+  "projects": [
+    {
+      "title": "ChordMage",
+      "description": "Music theory app I created to explore music theory while learning to play guitar.",
+      "url": "https://chordmage.com/",
+      "link": "chordmage.com"
+    },
+    {
+      "title": "Sauce",
+      "description": "A weblog I write random, mostly technical, stuff on.",
+      "url": "https://sauce.gaya.pizza",
+      "link": "sauce.gaya.pizza"
+    },
+    {
+      "title": "Thyme",
+      "description": "Privacy First Time Tracker.",
+      "url": "https://usethyme.com",
+      "link": "usethyme.com"
+    },
+    {
+      "title": "Create My Run",
+      "description": "When I was training for the marathon I wanted a tool to generate a route to run. Only works in The Netherlands.",
+      "url": "https://createmy.run",
+      "link": "createmy.run"
+    },
+    {
+      "title": "Dead Soil",
+      "description": "The doom metal band I do vocals for.",
+      "url": "https://deadsoil.bio",
+      "link": "deadsoil.bio"
+    }
+  ]
+}
