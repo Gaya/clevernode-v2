@@ -3,6 +3,7 @@
 :root {
     --text: #151414;
     --bg: #DDD2CF;
+    --border-light: #a69691;
     --bg-light: #4A4645;
     --primary-light: #ec5135;
     --primary: #C03319;
@@ -217,6 +218,19 @@ em {
     }
 }
 
+footer {
+    border-top: 1px solid var(--border-light);
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0) 60px);
+    padding: var(--s8) var(--s4);
+    display: flex;
+    justify-content: center;
+
+    .contact {
+        display: block;
+        margin: 0;
+    }
+}
+
 @media screen and (min-width: 880px) {
     .contact.mobile {
         display: none;
@@ -278,5 +292,9 @@ em {
                 margin-bottom: 0;
             }
         }
+    }
+
+    footer {
+        padding: var(--s16) var(--s4);
     }
 }

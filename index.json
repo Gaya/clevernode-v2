@@ -1,46 +1,52 @@
 {
   "clients": [
     {
-      "title": "Bureau voor Pedagogiek",
+      "title": "Bureau voor Pedagogiek - Landhorst, The Netherlands",
       "description": "Health Care Specialist / Teacher and Coach IT for autistic youth",
       "url": "https://bureauvoorpedagogiek.nl/",
       "link": "bureauvoorpedagogiek.nl"
     },
     {
-      "title": "Philips",
+      "title": "Philips - Eindhoven, The Netherlands",
       "description": "Cloud hosting platform for Philips Healthcare in Node.js",
       "url": "https://www.philips.com/global",
       "link": "philips.com"
     },
     {
-      "title": "Graylog",
+      "title": "Graylog - Hamburg, Germany",
       "description": "React development for the core and cloud product",
       "url": "https://www.graylog.com",
       "link": "graylog.com"
     },
     {
-      "title": "Intoto",
+      "title": "Intoto - Kvinesdal, Norway",
       "description": "Visualising intelligent river data with React, D3, Node.js",
       "url": "https://intoto.io/",
       "link": "intoto.io"
     },
     {
-      "title": "Infowijs",
+      "title": "Infowijs - Amsterdam, The Netherlands",
       "description": "React education and development of school communication platforms",
       "url": "https://infowijs.nl/",
       "link": "infowijs.nl"
     },
     {
-      "title": "Netthandelsgruppen",
+      "title": "Netthandelsgruppen - Olso, Norway",
       "description": "E-commerce dashboards and React powered tooling",
       "url": "https://netthandelsgruppen.no",
       "link": "netthandelsgruppen.no"
     },
     {
-      "title": "PackBack",
+      "title": "PackBack - The Hague, The Netherlands",
       "description": "Temporary Tech Lead and Full-stack Developer",
       "url": "https://www.packback.network/",
       "link": "packback.network"
+    },
+    {
+      "title": "Dekode - Olso, Norway",
+      "description": "React applications and Node.js services",
+      "url": "https://dekode.no",
+      "link": "dekode.no"
     }
   ],
   "projects": [
