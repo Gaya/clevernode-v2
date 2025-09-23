@@ -1,0 +1,92 @@
+{
+  "clients": [
+    {
+      "title": "Bureau voor Pedagogiek",
+      "location": "Landhorst, Nederland",
+      "description": "Zorgspecialist / Docent en Coach IT voor jongeren met autisme",
+      "url": "https://bureauvoorpedagogiek.nl/",
+      "link": "bureauvoorpedagogiek.nl"
+    },
+    {
+      "title": "Philips",
+      "location": "Eindhoven, Nederland",
+      "description": "Cloud hostingplatform voor Philips Healthcare in Node.js",
+      "url": "https://www.philips.com/global",
+      "link": "philips.com"
+    },
+    {
+      "title": "Graylog",
+      "location": "Hamburg, Duitsland",
+      "description": "React-ontwikkeling voor de core- en cloudproducten",
+      "url": "https://www.graylog.com",
+      "link": "graylog.com"
+    },
+    {
+      "title": "Intoto",
+      "location": "Kvinesdal, Noorwegen",
+      "description": "Visualiseren van intelligente rivierdata met React, D3, Node.js",
+      "url": "https://intoto.io/",
+      "link": "intoto.io"
+    },
+    {
+      "title": "Infowijs",
+      "location": "Amsterdam, Nederland",
+      "description": "React-educatie en ontwikkeling van schoolcommunicatieplatforms",
+      "url": "https://infowijs.nl/",
+      "link": "infowijs.nl"
+    },
+    {
+      "title": "Netthandelsgruppen",
+      "location": "Oslo, Noorwegen",
+      "description": "E-commerce dashboards en React-gedreven tools",
+      "url": "https://netthandelsgruppen.no",
+      "link": "netthandelsgruppen.no"
+    },
+    {
+      "title": "PackBack",
+      "location": "Den Haag, Nederland",
+      "description": "Tijdelijk Tech Lead en Full-stack Ontwikkelaar",
+      "url": "https://www.packback.network/",
+      "link": "packback.network"
+    },
+    {
+      "title": "Dekode",
+      "location": "Oslo, Noorwegen",
+      "description": "React-applicaties en Node.js-diensten",
+      "url": "https://dekode.no",
+      "link": "dekode.no"
+    }
+  ],
+  "projects": [
+    {
+      "title": "ChordMage",
+      "description": "Muziektheorie-app die ik heb gemaakt om muziektheorie te verkennen tijdens het leren gitaarspelen.",
+      "url": "https://chordmage.com/",
+      "link": "chordmage.com"
+    },
+    {
+      "title": "Sauce",
+      "description": "Een weblog waarop ik willekeurige, meestal technische, dingen schrijf.",
+      "url": "https://sauce.gaya.pizza",
+      "link": "sauce.gaya.pizza"
+    },
+    {
+      "title": "Thyme",
+      "description": "Privacy-First Tijdregistratie-app.",
+      "url": "https://usethyme.com",
+      "link": "usethyme.com"
+    },
+    {
+      "title": "Create My Run",
+      "description": "Toen ik trainde voor de marathon wilde ik een tool om een hardlooproute te genereren. Werkt alleen in Nederland.",
+      "url": "https://createmy.run",
+      "link": "createmy.run"
+    },
+    {
+      "title": "Dead Soil",
+      "description": "De doommetalband waarin ik de zang doe.",
+      "url": "https://deadsoil.bio",
+      "link": "deadsoil.bio"
+    }
+  ]
+}

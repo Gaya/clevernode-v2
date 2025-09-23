@@ -3,19 +3,31 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="robots" content="noodp,noydir">
 
-    <meta name="description" content="Freelance healthcare specialist and software developer based in Deurne, the Netherlands. With more than 20 years of experience." />
     <meta name="generator" content="{{ eleventy.generator }}" />
-
-    <title>Gaya Kessler — CleverNode</title>
 
     <link rel="stylesheet" href="/assets/css/style.css" />
 
     <link rel="mask-icon" href="/assets/images/clevernode-box.svg" color="#151515">
     <link rel="icon" type="image/png" href="/assets/images/favicon-32x32.png" sizes="32x32">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" href="/assets/images/favicon-16x16.png" sizes="16x16">
     <meta name="theme-color" content="#ffffff">
     <meta name="view-transition" content="same-origin">
+
+    <title>Gaya Kessler — CleverNode</title>
+    <meta property="og:title" content="Gaya Kessler — CleverNode">
+    <meta name="description" content="Freelance healthcare specialist and software developer based in Deurne, the Netherlands. With more than 20 years of experience." />
+    <meta property="og:description" content="Freelance healthcare specialist and software developer based in Deurne, the Netherlands. With more than 20 years of experience.">
+    <meta property="og:url" content="https://theclevernode.com/">
+    <meta property="og:site_name" content="Gaya Kessler - CleverNode">
+    <meta property="og:locale" content="en">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/assets/images/og_poster_default.jpg">
+
+    <link rel="canonical" href="https://theclevernode.com/">
   </head>
 
   <body class="bg-grain">
@@ -25,7 +37,7 @@
           <img class="avatar" src="/assets/images/gayakessler.webp" alt="Gaya Kessler" />
 
           <section class="contact">
-            {%  include "includes/contact.html" %}
+            {% include "includes/contact.html" %}
           </section>
         </aside>
         <section class="headers" id="contact">
@@ -46,7 +58,7 @@
             English
           </li>
           <li>
-            <a href="/nl.html">Nederlands</a>
+            <a href="/nl/">Nederlands</a>
           </li>
         </menu>
       </nav>
@@ -130,7 +142,7 @@
             <p>
               <em>{{ client.location }}</em><br />
               {{ client.description }}<br />
-              <a href="{{ client.url }}">{{ client.link }}</a>
+              <a href="{{ client.url }}" target="_blank">{{ client.link }}</a>
             </p>
           {% endfor %}
         </section>
@@ -147,11 +159,15 @@
           </p>
 
           <p>
-            I speak and understand Dutch (native), English (fluent), and Norwegian (B2).
+            Recently started working as a <strong>health care specialist</strong> with a focus on coaching and supporting <strong>young people with autism discover their IT related talents</strong>.
           </p>
 
           <p>
-            I've been professionally active as a developer since 2006 and have been freelancing since 2017.
+            I've been professionally active as a <strong>software developer</strong> since 2006 and have been freelancing since 2017.
+          </p>
+
+          <p>
+            I speak and understand Dutch (native), English (fluent), and Norwegian (B2).
           </p>
         </section>
 
