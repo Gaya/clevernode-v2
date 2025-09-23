@@ -10,6 +10,7 @@
     --primary-dark: #8f210c;
 
     --spacing: 4px;
+    --s1: var(--spacing);
     --s2: calc(var(--spacing) * 2);
     --s4: calc(var(--spacing) * 4);
     --s6: calc(var(--spacing) * 6);
@@ -63,6 +64,24 @@ a {
             background-size: contain;
             display: inline-block;
         }
+    }
+}
+
+.contact-btn {
+    color: var(--primary);
+    background: transparent;
+    border: 1px solid var(--primary);
+    text-decoration: none;
+    padding: var(--s2) var(--s4);
+    border-radius: var(--s2);
+    display: inline-block;
+    margin: 2em 0;
+    transition: all ease 0.2s;
+
+    &:hover {
+        color: var(--text);
+        border-color: var(--text);
+        text-decoration: underline;
     }
 }
 
@@ -224,11 +243,8 @@ footer {
     padding: var(--s8) var(--s4);
     display: flex;
     justify-content: center;
-
-    .contact {
-        display: block;
-        margin: 0;
-    }
+    font-size: 0.75em;
+    font-weight: 500;
 }
 
 @media screen and (min-width: 880px) {
@@ -292,9 +308,5 @@ footer {
                 margin-bottom: 0;
             }
         }
-    }
-
-    footer {
-        padding: var(--s16) var(--s4);
     }
 }

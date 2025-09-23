@@ -1,49 +1,57 @@
 {
   "clients": [
     {
-      "title": "Bureau voor Pedagogiek - Landhorst, The Netherlands",
+      "title": "Bureau voor Pedagogiek",
+      "location": "Landhorst, The Netherlands",
       "description": "Health Care Specialist / Teacher and Coach IT for autistic youth",
       "url": "https://bureauvoorpedagogiek.nl/",
       "link": "bureauvoorpedagogiek.nl"
     },
     {
-      "title": "Philips - Eindhoven, The Netherlands",
+      "title": "Philips",
+      "location": "Eindhoven, The Netherlands",
       "description": "Cloud hosting platform for Philips Healthcare in Node.js",
       "url": "https://www.philips.com/global",
       "link": "philips.com"
     },
     {
-      "title": "Graylog - Hamburg, Germany",
+      "title": "Graylog",
+      "location": "Hamburg, Germany",
       "description": "React development for the core and cloud product",
       "url": "https://www.graylog.com",
       "link": "graylog.com"
     },
     {
-      "title": "Intoto - Kvinesdal, Norway",
+      "title": "Intoto",
+      "location": "Kvinesdal, Norway",
       "description": "Visualising intelligent river data with React, D3, Node.js",
       "url": "https://intoto.io/",
       "link": "intoto.io"
     },
     {
-      "title": "Infowijs - Amsterdam, The Netherlands",
+      "title": "Infowijs",
+      "location": "Amsterdam, The Netherlands",
       "description": "React education and development of school communication platforms",
       "url": "https://infowijs.nl/",
       "link": "infowijs.nl"
     },
     {
-      "title": "Netthandelsgruppen - Olso, Norway",
+      "title": "Netthandelsgruppen",
+      "location": "Olso, Norway",
       "description": "E-commerce dashboards and React powered tooling",
       "url": "https://netthandelsgruppen.no",
       "link": "netthandelsgruppen.no"
     },
     {
-      "title": "PackBack - The Hague, The Netherlands",
+      "title": "PackBack",
+      "location": "The Hague, The Netherlands",
       "description": "Temporary Tech Lead and Full-stack Developer",
       "url": "https://www.packback.network/",
       "link": "packback.network"
     },
     {
-      "title": "Dekode - Olso, Norway",
+      "title": "Dekode",
+      "location": "Olso, Norway",
       "description": "React applications and Node.js services",
       "url": "https://dekode.no",
       "link": "dekode.no"

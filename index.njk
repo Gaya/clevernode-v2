@@ -4,12 +4,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="description" content="Bla bla Gaya Kessler" />
+    <meta name="description" content="Freelance healthcare specialist and software developer based in Deurne, the Netherlands. With more than 20 years of experience." />
     <meta name="generator" content="{{ eleventy.generator }}" />
 
-    <title>Gaya Kessler - CleverNode</title>
+    <title>Gaya Kessler — CleverNode</title>
 
     <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <link rel="mask-icon" href="/assets/images/clevernode-box.svg" color="#151515">
+    <link rel="icon" type="image/png" href="/assets/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/images/favicon-16x16.png" sizes="16x16">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="view-transition" content="same-origin">
   </head>
 
   <body class="bg-grain">
@@ -19,16 +25,7 @@
           <img class="avatar" src="/assets/images/gayakessler.webp" alt="Gaya Kessler" />
 
           <section class="contact">
-            <address>
-              <strong>Gaya Kessler - CleverNode</strong><br />
-              Deurne, Noord-Brabant<br />
-              The Netherlands<br />
-              <a href="mailto:gaya@theclevernode.com">gaya@theclevernode.com</a>
-            </address>
-            <nav class="links">
-              <a href="https://www.linkedin.com/in/gaya-kessler/" target="_blank">LinkedIn</a>
-              <a href="https://github.com/Gaya" target="_blank">GitHub</a>
-            </nav>
+            {%  include "includes/contact.html" %}
           </section>
         </aside>
         <section class="headers" id="contact">
@@ -40,16 +37,7 @@
         </section>
 
         <section class="contact mobile">
-          <address>
-            <strong>Gaya Kessler - CleverNode</strong><br />
-            Deurne, Noord-Brabant<br />
-            The Netherlands<br />
-            <a href="mailto:gaya@theclevernode.com">gaya@theclevernode.com</a>
-          </address>
-          <nav class="links">
-            <a href="https://www.linkedin.com/in/gaya-kessler/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/Gaya" target="_blank">GitHub</a>
-          </nav>
+          {%  include "includes/contact.html" %}
         </section>
       </header>
       <nav class="page-nav">
@@ -140,6 +128,7 @@
           {% for client in clients %}
             <h4>{{ client.title }}</h4>
             <p>
+              <em>{{ client.location }}</em><br />
               {{ client.description }}<br />
               <a href="{{ client.url }}">{{ client.link }}</a>
             </p>
@@ -238,14 +227,7 @@
       </main>
     </section>
     <footer>
-      <section class="contact">
-        <address>
-          <strong>Gaya Kessler - CleverNode</strong><br />
-          Deurne, Noord-Brabant<br />
-          The Netherlands<br />
-          <a href="mailto:gaya@theclevernode.com">gaya@theclevernode.com</a>
-        </address>
-      </section>
+      CleverNode — Keep it simple
     </footer>
   </body>
 </html>
