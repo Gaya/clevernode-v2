@@ -242,6 +242,15 @@ em {
             height: auto;
         }
     }
+
+    ul {
+        margin-bottom: var(--s8);
+    }
+
+    ul li {
+        list-style: disc;
+        margin: 0 0 var(--s2) 20px;
+    }
 }
 
 footer {
