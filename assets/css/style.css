@@ -25,7 +25,7 @@
 html, body {
     font-family: system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: var(--text);
-    font-size: 24px;
+    font-size: large;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -114,6 +114,7 @@ a {
     display: none;
 
     &.mobile {
+        font-size: 1em;
         display: inline-block;
     }
 }
@@ -264,6 +265,10 @@ footer {
 }
 
 @media screen and (min-width: 880px) {
+    body {
+        font-size: 24px;
+    }
+
     .contact.mobile {
         display: none;
     }
