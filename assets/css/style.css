@@ -38,7 +38,7 @@ html, body {
 
 .bg-grain {
     background: var(--bg);
-    background: url('../images/grain.jpg');
+    background: url('/assets/images/grain.jpg');
     background-position: 50% 0;
 }
 
@@ -58,7 +58,7 @@ a {
             height: 0.6em;
             margin-left: 0.2em;
             margin-right: 0.1em;
-            background-image: url("../images/external.svg");
+            background-image: url("/assets/images/external.svg");
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
@@ -231,10 +231,16 @@ em {
         margin: 0 0 var(--s8) 0;
     }
 
-    img {
+    picture {
         display: block;
         max-width: 100%;
         margin: var(--s8) 0;
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
     }
 }
 
